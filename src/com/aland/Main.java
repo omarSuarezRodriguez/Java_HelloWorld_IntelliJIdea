@@ -9,6 +9,7 @@ public class Main {
 
     private JButton button1;
     private JPanel panel1;
+    private JButton button2;
 
 
     public Main() {
@@ -16,6 +17,12 @@ public class Main {
             @Override
             public void actionPerformed(ActionEvent e) {
                 System.out.println("SISAS");
+            }
+        });
+        button2.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                System.out.println("SISAAAAAAAAAAAS");
             }
         });
     }
